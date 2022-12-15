@@ -22,7 +22,7 @@ function verificar() {
             } else if (idade < 40) {
                 //adulto
                 img.setAttribute('src', 'imagens/m-adulto.png')
-            }  else if (idade < 65) {
+            }  else if (idade < 60) {
                 //adulto
                 img.setAttribute('src', 'imagens/m-meiaidade.png')
             }  else {
@@ -40,12 +40,12 @@ function verificar() {
             } else if (idade < 40) {
                 //adulto
                 img.setAttribute('src', 'imagens/f-adulta.png')
-            }  else if (idade < 65) {
-                //adulta
+            }  else if (idade < 60) {
+                //adulto
                 img.setAttribute('src', 'imagens/f-meiaidade.png')
                 //meia idade
             }  else {
-                //idosa
+                //idoso
                 img.setAttribute('src', 'imagens/f-idosa.png')
             }
         }
